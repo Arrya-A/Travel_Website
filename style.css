@@ -6,12 +6,13 @@
     padding: 0px;
     
 }
-
 body{
     overflow-x: hidden;
 }
 
+
 /* navbar */
+
 #logo {
     width: 25%;
     height: 60px;
@@ -39,10 +40,41 @@ body{
 }
 
 .nav-link:hover {
-    color: orange;
+    color: rgb(130, 31, 160);
+    text-decoration: underline;
+    text-shadow: 1px 1px;
 
 }
 
+/* Modal */
+.custom-modal-width {
+    max-width: 60%; 
+  }
+
+.bottom{
+    margin-top: 70px;
+    font-size: 10px;
+}
+/* Home */
+.home_section{
+    width: 100%;
+    height: 90vh;
+}
+#home h1 {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+#home p {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 20px;
+
+}
+#home img{
+    border-radius: 5px;
+    height: 80%;
+}
 
 
 /* main section */
@@ -79,7 +111,7 @@ body{
 
 /* Trip planner */
 #trip_plan {
-    background-color: rgb(120, 0, 110);
+    background-color: rgb(130, 31, 160);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,16 +127,25 @@ body{
     }
 
     .trip_planner,
-    .useful_information {
+    .useful_information
+     {
         padding: 0 !important;
 
     }
 
-    .login {
+    .login  {
         margin: 0 !important;
 
     }
-
+    .heading,
+    .heading + p {
+        padding-left: 0 !important;
+        margin-left: 15px !important;
+    }
+    .custom-modal-width {
+        width: 100%;
+        max-width: 100%;
+      }
 }
 
 .heading {
@@ -116,7 +157,7 @@ body{
     font-family: "Hind Siliguri", sans-serif;
     font-size: 30px;
     color: white;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
 }
 
 #trip_plan p {
@@ -147,19 +188,19 @@ body{
 #trip_plan1 h1 {
     font-family: "Hind Siliguri", sans-serif;
     font-size: 30px;
-    color: rgb(120, 0, 110);
-    padding-bottom: 25px;
+    color: rgb(130, 31, 160);
+    padding-bottom: 10px;
 }
 
 .btn-clr {
-    background-color: rgb(120, 0, 110);
+    background-color: rgb(130,31,160);
     color: white;
 }
 
 .btn-clr:hover {
-    background-color: white;
-    color: rgb(120, 0, 110);
-    border-color: rgb(120, 0, 110);
+    background-color: rgb(236,222,241);
+    color: rgb(130, 31, 160);
+    border-color: rgb(130, 31, 160);
 }
 
 
@@ -167,7 +208,7 @@ body{
 /* popular packages */
 .imag1 {
     position: relative;
-    overflow: hidden;
+    overflow: hidden; /* to zoom only inside the box when hovering */
 }
 
 .imag1 img {
@@ -202,17 +243,71 @@ body{
     height: 250px;
 }
 
+.card-body i{
+    font-size: x-large;
+}
 
+
+
+/* special tour */
+
+
+.feature {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(212, 229, 235, 0.497);
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 50px;
+    margin: 25px;
+
+}
+
+.feature p {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.feature a {
+    color: blue;
+    font-weight: 400;
+}
+
+.card2 img {
+    border-radius: 50%;
+    padding-bottom: 15px
+}
+
+.card2 {
+    display: flex;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.card2 a {
+    text-decoration: none;
+}
+
+/* customer */
+.customer img{
+    border-radius: 50%;
+    width: 50px;
+}
+
+.checked {
+    color: rgb(208, 189, 61);
+}
 
 /* Accordian */
-.accordion-button {
-    background-color: rgb(120, 0, 110);
-    color: white;
+.accordion-button{
+    background-color: rgb(236,222,241);
+    color: black;
 }
 
 .accordion-button:not(.collapsed) {
     color: white;
-    background-color: rgba(120, 0, 110, 0.697);
+    background-color: rgb(236,222,241);
 }
 
 
