@@ -35,13 +35,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
 
-
 </head>
 
 <body>
 
   <!-- navbar -->
-
   <nav class="navbar navbar-expand-lg bg-body-light">
     <div class="container-fluid">
       <a class="navbar-brand ms-3" href="#">
@@ -60,90 +58,28 @@
           <li class="nav-item">
             <a class="nav-link me-5" aria-current="page" href="#">Hotel</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link  me-5" aria-current="page" href="#">Train</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link  me-5" aria-current="page" href="#">Cab</a>
           </li>
-
           <li class="nav-item  me-5">
             <a class="nav-link" aria-current="page" href="#">Holiday</a>
           </li>
-
           <li class="nav-item ">
             <button type="button" class="login btn btn-clr px-3 py-2 mx-5" data-bs-toggle="modal"
-            data-bs-target="#staticBackdrop_Login">Login</button>
+              data-bs-target="#staticBackdrop_Login">Login</button>
           </li>
-
           <li class="nav-item  me-5 ">
             <button type="button" class="login btn btn-clr px-3 py-2 me-5" data-bs-toggle="modal"
               data-bs-target="#staticBackdrop_Book_Now">Book Now</button>
           </li>
 
-          
 
           <!-- Login modal -->
-          <div class="modal fade" id="staticBackdrop_Login" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-          aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog custom-modal-width">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Book Your Trip</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <form>
-                  <div class="row">
-                    <div class="col-md-6">
-                      <img src="./images/Login_Card.png" alt="" width="100%">
-                    </div>
-                    <div class="col-md-6">
-                      <div class="mb-3 px-3  w-100">
-                        <div class="input-group mb-3 mt-5">
-                          <span class="input-group-text">IN +91 </span>
-                          <div class="form-floating">
-                            <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Mobile">
-                            <label for="floatingInputGroup1">Mobile Number</label>
-                          </div>
-                          
-                        </div>
-                        <div>
-                          <button class="btn btn-clr rounded-5 w-100 align-items-center my-3">Continue</button>
-                        </div>
-                        <hr>
-                        <p class="text-center text-secondary mt-4">Or Login/Signup With</p>
-                        <div class=" d-flex justify-content-center">
-                          <div  class="bordered mx-2 p-1 rounded-circle border border-secondary">
-                            <img class="rounded-circle" src="./images/login_logo1.jpg" alt="" height="30px" width="30px">
-                          </div>
-                          <div  class="bordered mx-2 p-1 rounded-circle border border-secondary">
-                            <img class="rounded-circle" src="./images/login_logo2.jpg" alt="" height="30px" width="30px">
-                          </div>
-                        </div>
-
-                        <div >
-                          <p class="bottom">By proceeding,you agree to Adventour's <span class="text-info">Privacy Policy, User Agreement</span> and <span class="text-info">T&Cs</span></p>
-                        </div>
-
-                      </div>
-
-                    </div>
-                  </div>
-                  
-                </form>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-<!-- Book Now Modal -->
-          <div class="modal fade" id="staticBackdrop_Book_Now" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal fade" id="staticBackdrop_Login" data-bs-backdrop="static" data-bs-keyboard="false"
+            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog custom-modal-width">
               <div class="modal-content">
                 <div class="modal-header">
@@ -153,7 +89,59 @@
                 <div class="modal-body">
                   <form>
                     <div class="row">
-                      
+                      <div class="col-md-6">
+                        <img src="./images/Login_Card.png" alt="" width="100%">
+                      </div>
+                      <div class="col-md-6">
+                        <div class="mb-3 px-3  w-100">
+                          <div class="input-group mb-3 mt-5">
+                            <span class="input-group-text">IN +91 </span>
+                            <div class="form-floating">
+                              <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Mobile">
+                              <label for="floatingInputGroup1">Mobile Number</label>
+                            </div>
+                          </div>
+                          <div>
+                            <button class="btn btn-clr rounded-5 w-100 align-items-center my-3">Continue</button>
+                          </div>
+                          <hr>
+                          <p class="text-center text-secondary mt-4">Or Login/Signup With</p>
+                          <div class=" d-flex justify-content-center">
+                            <div class="bordered mx-2 p-1 rounded-circle border border-secondary">
+                              <img class="rounded-circle" src="./images/login_logo1.jpg" alt="" height="30px"
+                                width="30px">
+                            </div>
+                            <div class="bordered mx-2 p-1 rounded-circle border border-secondary">
+                              <img class="rounded-circle" src="./images/login_logo2.jpg" alt="" height="30px"
+                                width="30px">
+                            </div>
+                          </div>
+                          <div>
+                            <p class="bottom">By proceeding,you agree to Adventour's <span class="text-info">Privacy
+                                Policy, User Agreement</span> and <span class="text-info">T&Cs</span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Book Now Modal -->
+          <div class="modal fade" id="staticBackdrop_Book_Now" data-bs-backdrop="static" data-bs-keyboard="false"
+            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog custom-modal-width">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Book Your Trip</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="row">
                       <div class="col-md-6">
                         <div class="content-1 w-100">
                           <div class="mb-3 px-3">
@@ -180,16 +168,13 @@
                             <label for="phone" class="form-label">PHONE NO</label>
                             <input type="tel" class="form-control">
                           </div>
-    
                         </div>
                       </div>
                       <div class="col-md-6">
                         <img src="./images/BookNowModal.jpg" alt="" width="100%">
                       </div>
                     </div>
-                    
                   </form>
-
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-clr">Get a Callback</button>
@@ -197,7 +182,6 @@
               </div>
             </div>
           </div>
-
         </ul>
       </div>
     </div>
@@ -222,17 +206,16 @@
     </div>
   </div>
 
+
   <!-- Trip planner -->
   <div>
     <h2 class="heading pt-5 ms-5 ps-5">Discover our trip planner</h2>
     <p class="ms-5 ps-5 mb-0 ">Craft Your Own Adventure</p>
-  
     <div class="trip_planner mx-3 mx-md-5 p-md-5">
       <div class="container">
-  
         <div class="row ps-3 ps-md-5 shadow rounded" id="trip_plan">
           <div class="col-md-6">
-            <h1  class="mt-4">Create your own itinerary</h1>
+            <h1 class="mt-4">Create your own itinerary</h1>
             <p>Create a fully customized day-by-day itinerary and discover the hidden gems around the World.</p>
             <button class="btn btn-light p-3 rounded-5">Learn More</button>
           </div>
@@ -245,19 +228,11 @@
   </div>
 
 
-
-
-
   <!-- useful information -->
-
   <div class="useful_information" style="background-color: rgb(236,222,241);">
     <h2 class="heading pt-5 ms-5 ps-5">Useful Information</h2>
-
-
     <div class="trip_planner mx-3 mx-md-5 p-md-3">
-
       <div class="container">
-
         <div class="row ps-3 ps-md-5 shadow-lg rounded mb-3" id="trip_plan1">
           <div class="col-md-6">
             <h1 class="mt-4">Transportation</h1>
@@ -274,10 +249,8 @@
     </div>
 
 
-
     <div class="trip_planner mx-3 mx-md-5 p-md-3">
       <div class="container">
-
         <div class="row ps-3 ps-md-5 shadow-lg rounded mb-3" id="trip_plan1">
           <div class="col-md-6">
             <h1 class="mt-4">Road Trip Guide</h1>
@@ -292,9 +265,9 @@
       </div>
     </div>
 
+
     <div class="trip_planner mx-3 mx-md-5 p-md-3">
       <div class="container">
-
         <div class="row ps-3 ps-md-5 shadow-lg rounded mb-3" id="trip_plan1">
           <div class="col-md-6">
             <h1 class="mt-4">Your best holiday awaits</h1>
@@ -309,113 +282,87 @@
       </div>
     </div>
 
-
-
-
-
   </div>
-
-
 
 
   <!-- Popular packages -->
-
   <div class="popular_packages_container">
     <h2 class="heading pt-5 ms-5 ps-5">Popular Packages</h2>
     <p class="ms-5 ps-5">Explore our popoular tour packages</p>
-
-
     <!-- <div class="container"> -->
-      <div class="popular_packages">
-
-        <div class="row">
-          <div class="col-md-1"></div>
-
-          <div class="col-md-10">
-            <div class="row">
-              <div class="col-md-8 col-sm-12 mb-3">
-                <div class="imag1 rounded-2 ">
-                  <img src="./images/popular1.jpg" alt="" width="100%" height="390px">
-                  <div class="text">
-                    <h5>India Tour Packages</h5>
-                    <button class="btn btn-clr">78 Tours</button>
-                  </div>
+    <div class="popular_packages">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div class="row">
+            <div class="col-md-8 col-sm-12 mb-3">
+              <div class="imag1 rounded-2 ">
+                <img src="./images/popular1.jpg" alt="" width="100%" height="390px">
+                <div class="text">
+                  <h5>India Tour Packages</h5>
+                  <button class="btn btn-clr">78 Tours</button>
                 </div>
               </div>
-
-              <div class="col-md-4 col-sm-6">
-                <div class="imag1 rounded-2">
-                  <img src="./images/popular2.jpg" alt="" width="100%" height="390px">
-                  <div class="text">
-                    <h5>International</h5>
-                    <button class="btn btn-clr">362 Tours</button>
-                  </div>
-                </div>
-              </div>
-
             </div>
-          </div>
-
-          <div class="col-md-1"></div>
-        </div>
-
-        <div class="row py-4">
-          <div class="col-md-1"></div>
-          <div class="col-md-10">
-            <div class="row">
-              <div class="col-md-4 col-sm-6 mb-3">
-                <div class="imag1 rounded-2">
-                  <img src="./images/popular3.jpg" alt="" width="100%">
-                  <div class="text">
-                    <h5>Honeymoon Packages</h5>
-                    <button class="btn btn-clr">142 Tours</button>
-
-                  </div>
-                </div>
-
-              </div>
-              <div class="col-md-4 col-sm-6 mb-3">
-                <div class="imag1 rounded-2">
-                  <img src="./images/popular4.jpg" alt="" width="100%">
-                  <div class="text">
-                    <h5>Europe Tour Packages</h5>
-                    <button class="btn btn-clr">17 Tours</button>
-
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6">
-                <div class="imag1 rounded-2">
-                  <img src="./images/popular5.jpg" alt="" width="100%" height="50%">
-                  <div class="text">
-                    <h5>Educational Tour Packages</h5>
-                    <button class="btn btn-clr">14 Tours</button>
-
-                  </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="imag1 rounded-2">
+                <img src="./images/popular2.jpg" alt="" width="100%" height="390px">
+                <div class="text">
+                  <h5>International</h5>
+                  <button class="btn btn-clr">362 Tours</button>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-1"></div>
-
         </div>
+        <div class="col-md-1"></div>
       </div>
+      <div class="row py-4">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div class="row">
+            <div class="col-md-4 col-sm-6 mb-3">
+              <div class="imag1 rounded-2">
+                <img src="./images/popular3.jpg" alt="" width="100%">
+                <div class="text">
+                  <h5>Honeymoon Packages</h5>
+                  <button class="btn btn-clr">142 Tours</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-3">
+              <div class="imag1 rounded-2">
+                <img src="./images/popular4.jpg" alt="" width="100%">
+                <div class="text">
+                  <h5>Europe Tour Packages</h5>
+                  <button class="btn btn-clr">17 Tours</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="imag1 rounded-2">
+                <img src="./images/popular5.jpg" alt="" width="100%" height="50%">
+                <div class="text">
+                  <h5>Educational Tour Packages</h5>
+                  <button class="btn btn-clr">14 Tours</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
     <!-- </div> -->
-
   </div>
 
 
-
-
   <!-- less known wonders of India -->
-
   <div class="wonder_places">
     <h2 class="heading pt-5 ms-5 ps-5">Unlock Lesser-Known Wonders of India</h2>
     <p class="ms-5 ps-5">Discover Hidden Gems</p>
-
-    <div class="container">
+    <div class="container p-0">
       <div class="row package_container pb-4 ">
-
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-3">
           <div class="card p-0">
             <img src="./images/card1.jpg" class="card-img" alt="...">
@@ -438,7 +385,7 @@
           <div class="card p-0">
             <img src="./images/card3.webp" class="card-img" alt="...">
             <div class="card-body d-flex justify-content-between">
-              <p class="card-text">Picturesque Gateway to Himalaya</p>
+              <p class="card-text">Picturesque Gateway to Himalayas</p>
               <i class="fa-regular fa-circle-right"></i>
             </div>
           </div>
@@ -452,14 +399,12 @@
             </div>
           </div>
         </div>
-
-
       </div>
     </div>
   </div>
 
-  <!-- Testimonials -->
 
+  <!-- Testimonials -->
   <div class="testimonial" style="background-color: rgb(236, 222, 241);">
     <h2 class="heading pt-5 ms-5 ps-5">Client Testimonials</h2>
     <p class="ms-5 ps-5">Hear from Our Happy Travellers</p>
@@ -496,7 +441,9 @@
               <span class="fa fa-star"></span>
               <span class="fa fa-star"></span>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque cum quia expedita odit consequuntur eligendi, debitis ipsa? Reprehenderit delectus sapiente unde saepe! Nam unde quidem dolorum animi maxime laborum similique.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque cum quia expedita odit consequuntur
+              eligendi, debitis ipsa? Reprehenderit delectus sapiente unde saepe! Nam unde quidem dolorum animi maxime
+              laborum similique.</p>
           </div>
         </div>
       </div>
@@ -514,7 +461,9 @@
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star"></span>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni omnis, aspernatur, porro dignissimos quidem aut minus cumque cum, officia ducimus expedita libero ut inventore dolorum id fuga tempora facilis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni omnis, aspernatur, porro
+              dignissimos quidem aut minus cumque cum, officia ducimus expedita libero ut inventore dolorum id fuga
+              tempora facilis!</p>
           </div>
         </div>
         <div class="col-lg-6 col-md-12 mb-4">
@@ -530,18 +479,21 @@
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star"></span>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ipsa unde quia fuga deleniti esse magnam asperiores eaque ad numquam nostrum corporis facilis eveniet quod, in, voluptate recusandae dolores ut!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ipsa unde quia fuga deleniti esse magnam
+              asperiores eaque ad numquam nostrum corporis facilis eveniet quod, in, voluptate recusandae dolores ut!
+            </p>
           </div>
         </div>
       </div>
     </div>
   </div>
 
+
   <!-- faq  accordian -->
   <div class="faq">
     <h2 class="heading  pt-5 ms-5 ps-5 ">FAQs</h2>
     <p class="ms-5 ps-5 ">Find answers to commonly asked questions</p>
-    <div class="container">
+    <div class="container p-0">
       <div class="accordion accordion-flush" id="accordionFlushExample">
         <div class="accordion-item">
           <h2 class="accordion-header">
@@ -613,17 +565,15 @@
               about cancellations, credits and refunds on our Trip Cancellations page.</div>
           </div>
         </div>
-
       </div>
     </div>
   </div>
 
 
-
   <!-- footer -->
-
   <div class="footer row  p-5" style="color: rgb(130, 31, 160);">
     <div class="col-md-2"></div>
+
     <div class="col-md-2 ">
       <h3>Top Destinations</h3>
       <hr>
@@ -671,15 +621,10 @@
       </div>
     </div>
     <div class="col-md-2"></div>
-
   </div>
 
 
-
-
-
   <!-- copyright -->
-
   <div class="copyright p-4" style="background-color: rgb(130, 31, 160); color: white;">
     <div class="container ">
       <div class="row">
@@ -697,9 +642,6 @@
         </div>
       </div>
     </div>
-
-
-
   </div>
 </body>
 
